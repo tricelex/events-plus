@@ -20,7 +20,7 @@ RUN mkdir /code
 WORKDIR /code
 
 # Step 8/10 Here we copy the contens of our local code directory to our docker image
-COPY ./code /code/
+COPY . /code/
 
 # Step 9/10 Here we create a user to run our application in docker
 RUN adduser -D user

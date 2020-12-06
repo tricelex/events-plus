@@ -27,6 +27,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+    - name: Change Directory
+      run: |
+
     - name: Run Tests
       working-directory: code
       run: |
