@@ -27,5 +27,3 @@ RUN adduser -D user
 
 # Step 10/10 Here we switch the docker user to the user we created in step 9
 USER user
-
-
